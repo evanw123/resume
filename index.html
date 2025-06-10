@@ -48,7 +48,7 @@
     </div>
     
     <div class="tab-content">
-
+        <!-- About Me Section-->
         <div id="about" class="tab-pane active"><br>
             <div class="row">
                 <div class = "col-6">
@@ -136,15 +136,122 @@
                 <p>
                     I have many hobbies, I play tennis, video games, and paint. I also played piano until 7th grade.
                 </p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Favorite Game" data-bs-content="My favorite game is Fortnite.">
+                   Fun Fact(Click Me)
+                  </button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="I am on the Tennis Team!">
+                    Fun Fact 2
+                  </button>
             </div>
         </div>
-        
+        <!-- Achievements Section-->
         <div id="achievements" class="container tab-pane fade"><br>
-      		<h6 mt-5> This is content for the Menu 1 tab </h6>
+      		<div class="bg-light border border-2 border-dark p-4">
+            <h2 class="display-6 mb-3">Achievements</h2>
+        
+            <!-- Contact Section -->
+            <section id="contact-info" class="mb-4">
+              <h4>Contact</h4>
+              <p><i class="bi bi-telephone"></i> +1 978-270-8001129@wpsstudent.com</p>
+              <p><i class="bi bi-geo-alt"></i> 123 Winchester, MA</p>
+            </section>
+        
+            <!-- Education Section -->
+            <section id="education" class="mb-4">
+              <h4>Education</h4>
+              <p><strong>Winchester High School</strong><br>
+                 High Honors Roll, 4.35/4.5 GPA<br>
+                 Expected Graduation: 2027
+              </p>
+            </section>
+        
+            <!-- Awards & Societies -->
+            <section id="awards" class="mb-4">
+              <h4>Awards &amp; Societies</h4>
+              <ul>
+                <li>National Honor Society</li>
+                <li>Freshmen Tennis Varsity</li>
+                <li>USACO Java Silver</li>
+                <li>Almost AIME Qualifier</li>
+              </ul>
+            </section>
+        
+            <!-- Skills -->
+            <section id="skills" class="mb-4">
+              <h4>Skills</h4>
+              <ul>
+                <li>Davinci Resolve Editing</li>
+                <li>Java</li>
+                <li>Strong Math Skills</li>
+                <li>150 WPM Typing Speed</li>
+                <li>Fast Learner</li>
+                <li>1450 Rated Chess at Age 7</li>
+              </ul>
+            </section>
+        
+            <!-- Hobbies -->
+            <section id="hobbies" class="mb-4">
+              <h4>Hobbies</h4>
+              <ul>
+                <li>Tennis (Winchester High School Varsity)</li>
+                <li>Piano (until 7th grade)</li>
+                <li>Chess</li>
+                <li>Video Games (Fortnite; Top 1 Amber & Gene in the US)</li>
+                <li>Oil Pastel Painting</li>
+                <li>Upcycling</li>
+              </ul>
+            </section>
+        
+            <!-- Profile -->
+            <section id="profile" class="mb-4">
+              <h4>Profile</h4>
+              <p>Enthusiastic student with a passion for serving others. Highly skilled in time management and creating schedules to complete tasks.</p>
+            </section>
+        
+            <!-- Detailed Experience -->
+            <section id="detailed-experience" class="mb-4">
+              <h4>Experience</h4>
+              <div class="row">
+                <!-- Sogno Restaurant -->
+                <div class="col-md-6 mb-3">
+                  <h5>Sogno Restaurant, Winchester, MA <small class="text-muted">Sept. 2023 - Present</small></h5>
+                  <p><strong>Host:</strong> Greet and seat customers, manage seating arrangements with waitstaff, provide excellent service during rush hours while maintaining a positive attitude.</p>
+                </div>
+                <!-- Math Team -->
+                <div class="col-md-6 mb-3">
+                  <h5>Winchester High School Math Team <small class="text-muted">Sept. 2020 - Present</small></h5>
+                  <p><strong>Captain:</strong> Organize and manage meetings, coordinate competitions and tryouts, serve as WINMAC organizer, and lead instructional sessions.</p>
+                </div>
+                <!-- Tennis Team -->
+                <div class="col-md-6 mb-3">
+                  <h5>Winchester High School Tennis Team <small class="text-muted">Mar. 2022 - Present</small></h5>
+                  <p><strong>Second Doubles:</strong> Four-year varsity player, three-year starter, contributed to team leadership and performance.</p>
+                </div>
+                <!-- Coding Club -->
+                <div class="col-md-6 mb-3">
+                  <h5>Chelmsford High School Coding Club <small class="text-muted">Sept. 2020 - Present</small></h5>
+                  <p><strong>Captain:</strong> Host weekly volunteer meetings, organize community coding events, liaise with nonprofits, and ran a school-wide coding competition.</p>
+                </div>
+                <!-- Mentor Program -->
+                <div class="col-md-6 mb-3">
+                  <h5>Winchester High School Mentor Program <small class="text-muted">Sept. 2025 - Present</small></h5>
+                  <p><strong>Mentor:</strong> Guide freshmen through their first year, assist in passion discovery, participate in monthly strategy meetings with mentees and program board.</p>
+                </div>
+                <!-- Chess Club -->
+                <div class="col-md-6 mb-3">
+                  <h5>Chess Club <small class="text-muted">Sept. 2024 - Present</small></h5>
+                  <p><strong>Instructor & Competitor:</strong> Achieved 2000 ELO on Chess.com, won school tournaments, teach younger students, embody discipline, focus, and empathy.</p>
+                </div>
+              </div>
+            </section>
+        
+          </div>
         </div>
         
+        <!-- Experience Section-->
         <div id="experience" class="container tab-pane fade"><br>
             <h1 class = "display-1 text-center">My Experience: </h1>
+            <!-- Carousel -->
      		<div id="demo" class="carousel slide border border-dark border-4 mb-3" data-bs-ride="carousel">
           <!-- Indicators/dots -->
               <div class="carousel-indicators">
@@ -160,37 +267,37 @@
               
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="https://images.theconversation.com/files/152205/original/image-20170110-23473-gj7409.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1356&h=668&fit=crop" alt="tennis" class="d-block" style="height: 400px; width:100%">
+                  <img src="https://images.theconversation.com/files/152205/original/image-20170110-23473-gj7409.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1356&h=668&fit=crop" alt="tennis" class="d-block" style="height: 700px; width:100%">
                   <div class="carousel-caption">
                     <h3 class="text-bg-light text-black border border-2 border-dark">4 Year Varsity Tennis</h3>
                   </div>  
                 </div>
                 <div class="carousel-item">
-                  <img src="https://miro.medium.com/v2/resize:fit:640/0*hhnKGVn1K0hvhDqc.jpg" class="d-block" style="height: 400px; width:100%">
+                  <img src="https://miro.medium.com/v2/resize:fit:640/0*hhnKGVn1K0hvhDqc.jpg" class="d-block" style="height: 700px; width:100%">
                   <div class="carousel-caption">
                     <h3 class="text-bg-light text-black border border-2 border-dark">4.35/4.5 GPA</h3>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="https://www.thesprucecrafts.com/thmb/7F787XGs9couW2bOcBorwj6KM0M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dv2015029-56a136155f9b58b7d0bd0d71.jpg" alt="chess" class="d-block" style="height: 400px; width:100%">
+                  <img src="https://www.thesprucecrafts.com/thmb/7F787XGs9couW2bOcBorwj6KM0M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dv2015029-56a136155f9b58b7d0bd0d71.jpg" alt="chess" class="d-block" style="height: 700px; width:100%">
                   <div class="carousel-caption">
                     <h3 class="text-bg-light text-black border border-2 border-dark">2000 Rated in Chess</h3>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="https://www.recruiter.com/recruiting/wp-content/uploads/2019/04/chat.png" alt="mentor" class="d-block" style="height: 400px; width:100%">
+                  <img src="https://www.recruiter.com/recruiting/wp-content/uploads/2019/04/chat.png" alt="mentor" class="d-block" style="height: 700px; width:100%">
                   <div class="carousel-caption">
                     <h3 class="text-bg-light text-black border border-2 border-dark">High School Mentor Program</h3>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="https://sognoitalian.com/wp-content/uploads/elementor/thumbs/Sogno-27-e1708711994678-qvbx42ups0zs44h4iuu6nyq5bcs3dl65o5uig523pe.webp" alt="restaurant" class="d-block" style="height: 400px; width:100%">
+                  <img src="https://sognoitalian.com/wp-content/uploads/elementor/thumbs/Sogno-27-e1708711994678-qvbx42ups0zs44h4iuu6nyq5bcs3dl65o5uig523pe.webp" alt="restaurant" class="d-block" style="height: 700px; width:100%">
                   <div class="carousel-caption">
                     <h3 class="text-bg-light text-black border border-2 border-dark">3 Year Experience At Sogno Restaurant</h3>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzafnzORB1j3MwpDovVCeUoPQq1qv8K35iYA&s" alt="math" class="d-block" style="height: 400px; width:100%">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzafnzORB1j3MwpDovVCeUoPQq1qv8K35iYA&s" alt="math" class="d-block" style="height: 700px; width:100%">
                   <div class="carousel-caption">
                     <h3 class="text-bg-light text-black border border-2 border-dark">High School Math Team President</h3>
                   </div>
@@ -207,6 +314,7 @@
             </div>
         </div>
         
+        <!-- Contact Me Section-->
         <div id="contact" class="container tab-pane fade"><br>
             <div class = "bg-light p-3">
                 <div class="text-start display-4">
@@ -253,7 +361,15 @@
    </div>
     
     <script>
-       
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+          return new bootstrap.Popover(popoverTriggerEl)
+        })
+        
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
         
         var thanksMessage = document.getElementById("thanks");
         var containerBox = document.getElementById("container");
